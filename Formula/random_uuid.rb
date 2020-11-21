@@ -1,4 +1,4 @@
-class GetJoke < Formula
+class RandomUuid < Formula
   desc "Generate a random UUID"
   homepage "https://github.com/prasannaboga/homebrew-random-uuid"
   version "0.0.1"
