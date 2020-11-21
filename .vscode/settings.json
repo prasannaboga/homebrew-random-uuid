@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.html.erb": "html"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": true,
+  "solargraph.commandPath": "solargraph",
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "ruby.rubocop.executePath": ""
+}
