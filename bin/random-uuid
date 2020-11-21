@@ -14,7 +14,7 @@ parser = OptionParser.new do |opt|
   end
 
   opt.on("-v", "--version", "Version") do
-    puts "random-uuid: version 0.0.3"
+    puts "random-uuid: version 0.0.4"
     exit
   end
 end
