@@ -7,6 +7,16 @@ options = {}
 
 parser = OptionParser.new do |opt|
   opt.banner = "Usage: random_uuid [options]"
+
+  opt.on("-h", "--help", "Help") do
+    puts parser
+    exit
+  end
+
+  opt.on("-v", "--version", "Version") do
+    puts "random-uuid: version 0.0.3"
+    exit
+  end
 end
 
 parser.parse!(into: options)
