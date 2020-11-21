@@ -6,6 +6,6 @@ class RandomUuid < Formula
   url "https://github.com/prasannaboga/homebrew-random-uuid/archive/main.zip", using: :curl
 
   def install
-    bin.install "bin/random_uuid"
+    bin.install "bin/random-uuid"
   end
 end
